@@ -44,3 +44,50 @@ a {
 }
 
 
+/* 
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.lozad {
+    flex: 1 0 auto;
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .lozad {
+        max-width: 90%;
+        margin: 5px auto;
+    }
+} */
+
+.image-container {
+    width: 100%;
+    
+    height: auto; 
+    /* Esto asegura que el contenedor ocupe toda la altura de la pantalla */
+    overflow: hidden; /* Esto es para que, en caso de que la imagen sea más grande que el contenedor, no se muestren barras de desplazamiento */
+}
+
+.lozad {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.text-component {
+    display: flex;
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    text-align: justify; /* Asegura que el texto esté centrado si ocupa más de una línea */
+    font-size: 1.5em; /* Ajusta el tamaño del texto según tus necesidades */
+    padding: 0 0.5em; /* Añade algo de padding alrededor del texto para evitar que se pegue a los bordes */
+}
