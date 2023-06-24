@@ -68,10 +68,8 @@ a {
 
 .image-container {
     width: 100%;
-    
-    height: auto; 
-    /* Esto asegura que el contenedor ocupe toda la altura de la pantalla */
-    overflow: hidden; /* Esto es para que, en caso de que la imagen sea más grande que el contenedor, no se muestren barras de desplazamiento */
+    height: auto;  
+    overflow: hidden; 
 }
 
 .lozad {
@@ -85,9 +83,9 @@ a {
 
 .text-component {
     display: flex;
-    align-items: center; /* Centra el texto verticalmente */
-    justify-content: center; /* Centra el texto horizontalmente */
-    text-align: justify; /* Asegura que el texto esté centrado si ocupa más de una línea */
-    font-size: 1.5em; /* Ajusta el tamaño del texto según tus necesidades */
-    padding: 0 0.5em; /* Añade algo de padding alrededor del texto para evitar que se pegue a los bordes */
+    align-items: center;
+    justify-content: center;
+    text-align: justify; 
+    font-size: 1.5em; 
+    padding: 0 0.5em;
 }
